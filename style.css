@@ -1,0 +1,81 @@
+*{
+  box-sizing: border-box;
+}
+
+.div1{
+  background-color:rgb(70, 100, 135);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height:auto;
+  width:100%;
+  text-align: center;
+}
+.menu{
+  background-color: aliceblue;
+  width:100%;
+
+}
+.menu ul{
+  list-style-type:none;
+  margin: 0%;
+  padding: 0%;
+  overflow: hidden;
+  
+}
+.menu ul li{
+  float: left;
+}
+.menu ul li a{
+  display: block;
+  color: rgb(150, 100, 100);
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+.menu ul li a:hover{
+  background-color: rgb(0, 0, 0);
+  animation: forwards;
+}
+
+.left{
+  float: left;
+  width: 30%;
+  padding: 15px 15px;
+}
+.right{
+  color:white;
+  float: right;
+  width: 70%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.buttonClass {
+  font-size:15px;
+  font-family:Arial;
+  width:140px;
+  height:50px;
+  border-width:1px;
+  color:#fff;
+  border-color:#599bb3;
+  font-weight:bold;
+  border-top-left-radius:8px;
+  border-top-right-radius:8px;
+  border-bottom-left-radius:8px;
+  border-bottom-right-radius:8px;
+  box-shadow: 0px 10px 14px -7px #276873;
+  text-shadow: 0px 1px 0px #3d768a;
+  background:#599bb3;
+}
+
+.buttonClass:hover {
+  background: #000000
+}
+ 
+              
+@media only screen and (max-width:620px)  {
+  .right .left{
+      width:100%;
+  }
+  
+}
